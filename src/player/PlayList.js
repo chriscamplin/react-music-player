@@ -33,7 +33,7 @@ class PlayList extends React.Component {
               id: 3, 
               name: 'Ritual Union (Acappella)', 
               artist: 'Little Dragon',
-              source: ['acappella.ogg','acappella.mp3'],
+              source: ['tracks/acappella.ogg','tracks/acappella.mp3'],
               duration: '0:15'
 	        }
 	]
