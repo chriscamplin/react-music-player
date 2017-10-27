@@ -68,13 +68,6 @@ class PlayList extends React.Component {
   comonentDidMount() {
   }
 
-  getDuration(src) {
-
-  }
-
-
-
-
   handleClick (id, e, i) {
 
 	this.setState({
