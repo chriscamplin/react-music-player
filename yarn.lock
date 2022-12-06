@@ -927,9 +927,17 @@ block-stream@*:
   dependencies:
     inherits "~2.0.0"
 
+bluebird-co@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/bluebird-co/-/bluebird-co-2.2.0.tgz#e0a49e63b6b17e34c91f48b3934b769a377fbed7"
+
 bluebird@^3.4.6:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.1.tgz#d9551f9de98f1fcda1e683d17ee91a0602ee2eb9"
+
+bluebird@^3.5.1:
+  version "3.7.2"
+  resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
 
 body-parser@1.18.2:
   version "1.18.2"
@@ -3408,6 +3416,13 @@ minimist@^1.1.1, minimist@^1.2.0:
   dependencies:
     minimist "0.0.8"
 
+mp3-duration@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/mp3-duration/-/mp3-duration-1.1.0.tgz#c002e4e454448060873660abb4da7d10118d0e9c"
+  dependencies:
+    bluebird "^3.5.1"
+    bluebird-co "^2.2.0"
+
 ms@0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.1.tgz#9cd13c03adbff25b65effde7ce864ee952017098"
@@ -4153,8 +4168,8 @@ qs@6.5.1:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.1.tgz#349cdf6eef89ec45c12d7d5eb3fc0c870343a6d8"
 
 qs@~6.4.0:
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.0.tgz#13e26d28ad6b0ffaa91312cd3bf708ed351e7233"
+  version "6.4.1"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.4.1.tgz#2bad97710a5b661c366b378b1e3a44a592ff45e6"
 
 query-string@^4.1.0:
   version "4.3.4"
